@@ -1,0 +1,30 @@
+
+body {
+    background: #000000;
+
+}
+
+a{
+    zIndex:99999999999999999999;
+    font: 10px Arial red;
+}
+#link{
+    zIndex:99999999999999999999;
+    background: white;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important ;
+
+}
+
+  *{
+    margin:0;
+    padding:0;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    -webkit-user-select: none; //Safari
+    -moz-user-select: none; //Firefox
+    -ms-user-select: none; //IE10+/Edge
+    user-select: none; //Standard
+  }
